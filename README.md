@@ -30,7 +30,19 @@ _ client
 |_ contracts    (solidity fileas with src contracts)
 |_ migrations
   |2_deploy_contracts.js    (name of the solidity contracty  file to be mighrated to the selected truffle blockchain)
+| truffle-config.js     (configure default port 8545 from truffle development console blockchain environment and add the compilers vbersion)
 
+
+****** add compiler version at the end in truffle-config.js:
+
+...
+},
+  compilers: {
+    solc: {
+      version: "0.8.1 "
+    }
+  }
+...
 
 7. enter truffle development console:
 
