@@ -15,3 +15,40 @@ nvm intall node 12
 npm install -g truffle
 
 4. install Visual Studio code and extentions: solidity and "solidity visual developer"
+
+5. unbox react/solidity boilerplate::
+
+truffle unbox react
+
+6. the unboxed project dir structure:
+
+_ client
+|_ public   (index.html and web accessed files)
+|_ src      (App.js, getWeb3.js, etc javascript react src files)
+  |_ contracts    (migrated solidity contract files to .json ABI, Network "web3/blockchain", metadata i.e truffle development => migrate)
+| package.json    (config react scripts, dependencies, browserlist "browsers allowed"  i.e react script called for run react web server => npm start)
+|_ contracts    (solidity fileas with src contracts)
+|_ migrations
+  |2_deploy_contracts.js    (name of the solidity contracty  file to be mighrated to the selected truffle blockchain)
+
+
+7. enter truffle development console:
+
+truffle development
+
+8. migrate solidity files contracts to truffle dev blockchain:
+
+//inside trufdfle dev console
+truffle(develop)> migrate
+
+9. start react web server in another terminal:
+
+trufflePojectDir/client> npm start
+
+10. access default react web server port 3000:
+
+http://localhost:3000/
+
+**** PRERREQUISITE: 
+Install Metamask and configuire localhost network at port 8545 (provided by default by truffle development environment)
+
