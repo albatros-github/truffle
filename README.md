@@ -64,3 +64,7 @@ http://localhost:3000/
 **** PRERREQUISITE: 
 Install Metamask and configuire localhost network at port 8545 (provided by default by truffle development environment)
 
+
+# INSTALL OPENZEPPELIN 
+
+npm install --save @openzeppelin/contracts@v3.0.0
