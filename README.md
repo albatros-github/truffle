@@ -1,6 +1,6 @@
 # truffle
 
-1. Install node version manager, taking carfe of "important notes" appart:
+1. Install node version manager, taking care of "important notes" appart:
 
 https://github.com/nvm-sh/nvm#important-notes
 
