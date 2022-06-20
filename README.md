@@ -68,3 +68,8 @@ Install Metamask and configuire localhost network at port 8545 (provided by defa
 # INSTALL OPENZEPPELIN 
 
 npm install --save @openzeppelin/contracts@v3.0.0
+
+in visual studio code generates an error, solved:
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+Right click on the error.
+Select "Change the default workspace..." 
