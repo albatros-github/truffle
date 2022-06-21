@@ -76,6 +76,15 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 Right click on the error.
 Select "Change the default workspace..." 
 
+# CLONE SPECIFIC DIRECTORY FROM OPENZEPPELIN BRANCH release-v2.5.0 OF CROWDSALE (NOT SUPPORTED IN LATEST VERESIONS)
+
+git init
+
+git remote add OpenZeppelin https://github.com/OpenZeppelin/openzeppelin-contracts.git
+
+git fetch OpenZeppelin
+
+git checkout OpenZeppelin/release-v2.5.0 -- contracts/crowdsale
 
 # INSTALL CHAI FOR TESTING
 
