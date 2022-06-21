@@ -75,3 +75,8 @@ in visual studio code generates an error, solved:
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 Right click on the error.
 Select "Change the default workspace..." 
+
+
+# INSTALL CHAI FOR TESTING
+
+npm install --save chai chai-bn chai-as-promised
