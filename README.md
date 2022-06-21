@@ -66,6 +66,9 @@ http://localhost:3000/
 **** PRERREQUISITE: 
 Install Metamask and configuire localhost network at port 8545 (provided by default by truffle development environment)
 
+# INSTALL CHAI FOR TESTING
+
+npm install --save chai chai-bn chai-as-promised
 
 # INSTALL OPENZEPPELIN 
 
@@ -76,7 +79,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 Right click on the error.
 Select "Change the default workspace..." 
 
-# CLONE SPECIFIC DIRECTORY FROM OPENZEPPELIN BRANCH release-v2.5.0 OF CROWDSALE (NOT SUPPORTED IN LATEST VERESIONS)
+### CLONE SPECIFIC DIRECTORY FROM OPENZEPPELIN BRANCH release-v2.5.0 OF CROWDSALE (NOT SUPPORTED IN LATEST VERESIONS)
 
 git init
 
@@ -86,6 +89,3 @@ git fetch OpenZeppelin
 
 git checkout OpenZeppelin/release-v2.5.0 -- contracts/crowdsale
 
-# INSTALL CHAI FOR TESTING
-
-npm install --save chai chai-bn chai-as-promised
