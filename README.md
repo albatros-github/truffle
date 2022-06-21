@@ -44,9 +44,11 @@ _ client
   }
 ...
 
-7. enter truffle development console:
+7. init truffle project and enter truffle development console:
 
-truffle development
+truffle init
+
+truffle develop
 
 8. migrate solidity files contracts to truffle dev blockchain:
 
