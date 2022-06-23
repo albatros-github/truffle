@@ -72,7 +72,7 @@ npm install --save chai chai-bn chai-as-promised
 
 # INSTALL OPENZEPPELIN AND .ENV FILES VARIABLES
 
-npm install --save @openzeppelin/contracts@v3.0.0
+npm install --save @openzeppelin/contracts
 
 npm install --save dotenv
 
