@@ -36,7 +36,7 @@ Select "Change the default workspace..."  and use lo0cal files
   
   
   ------------------------------------  INFORMATIVE ONLY -----------------------------------[[
-  *****   prerrequisite for start building the ezxistent contract crowdsales.sol DO NOT DO IT, THE CONTRACT ALREADY WAS REFACTORED
+  *****   prerrequisite for start building the existent contract crowdsales.sol DO NOT DO IT, THE CONTRACT ALREADY WAS REFACTORED
 ### CLONE SPECIFIC DIRECTORY FROM OPENZEPPELIN BRANCH release-v2.5.0 OF CROWDSALE (NOT SUPPORTED IN LATEST VERESIONS)
 
 git init
