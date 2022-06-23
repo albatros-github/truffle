@@ -11,11 +11,14 @@ chai.use(chaiAsPromised);
 
 const expect = chai.expect;
 
+require('dotenv').config({path: '../.env'});
+
 contract("Token Test", function(accounts) {
     const [ initialHolder, recipient, anotherAccount ] = accounts;
 
     beforeEach(async () => {
-    this.myToken = await Token.new(1000);
+    //this.myToken = await Token.new(1000);
+    this.myToken = await Token.new(process.env.INITIAL_TOKENS);
     });
 
 
