@@ -1,3 +1,6 @@
+
+## CONFIGURE PROJECT SOURCE CODE
+
 1. start from "truffle unbox react", boilerplate code and replace files found in here
 
 2. add the solc compiler version in "truffle-config.js"
@@ -13,13 +16,12 @@
 
 // ...
 
-3. 
 
-# INSTALL CHAI FOR TESTING
+## INSTALL CHAI FOR TESTING
 
 npm install --save chai chai-bn chai-as-promised
 
-# INSTALL OPENZEPPELIN AND .ENV FILES VARIABLES
+## INSTALL OPENZEPPELIN AND .ENV FILES VARIABLES
 
 npm install --save @openzeppelin/contracts
 
